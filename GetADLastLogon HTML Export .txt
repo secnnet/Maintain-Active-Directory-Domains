@@ -1,0 +1,17 @@
+This script was created to maintain Active Directory domains, in checking for enabled, but not-used user accounts. This will display a polished HTML report of all users and various useful properties such as:
+
+    Canonical Name
+    SAM Account Name
+    Enabled
+    Password Expired
+    Date Created
+    Last LogonDays
+    Elapsed Since Last Logon 
+    Last Failed Logon 
+    Account Age - Days 
+
+The report also gives a total user count in the domain it's run against, as well as the date.
+
+The HTML uses a nice (embedded in the script) CSS with mouse over row highlight, a quaility I use shamelessly in all my HTML reports, for easy reading, along with alternating row colors.
+
+This script is a great way to keep your AD environment secure (by cleaning out unused accounts that can be means of authentication to a malicious user, former employee, etc) and clean of unneeded data.
